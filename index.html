@@ -5,69 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Advanced Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://kit.fontawesome.com/6a11f99eb4.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/6a11f99eb4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <section id="landing-page">
       <nav>
         <figure>
-          <img id="personal-logo"
+          <img
+            id="personal-logo"
             src="./assets/transparent.personal.logo.png"
             alt="Personal Logo"
           />
         </figure>
         <ul class="nav__link--list">
-            <li class="nav__link">
-                <a href="#" class="
-                nav__link--anchor
-                link__hover-effect
-                link__hover-effect--black
-                ">About</a>
-            </li>
-            <li class="nav__link">
-                <a href="#projects" class="
-                nav__link--anchor
-                link__hover-effect
-                link__hover-effect--black
-                ">Projects</a>
-            </li>
-            <li class="nav__link">
-                <a href="" class="
-                nav__link--anchor
-                link__hover-effect
-                link__hover-effect--black
-                ">Contact</a>
-            </li>
-            <li class="nav__link click">
-                <a href="" class="
-                nav__link--anchor
-                link__hover-effect
-                link__hover-effect--black
-                "><i class="fa-solid fa-circle-half-stroke"></i></a>
-            </li>
+          <li class="nav__link">
+            <a
+              href="#"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >About</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="#projects"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Projects</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href=""
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Contact</a
+            >
+          </li>
+          <li class="nav__link click">
+            <a
+              href=""
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              ><i class="fa-solid fa-circle-half-stroke"></i
+            ></a>
+          </li>
         </ul>
       </nav>
       <header class="header">
         <div class="header__content">
-            <h1 class="title">Hey</h1>
-            <h1 class="title pink">I'm Amelia</h1>
-            <p class="header__para">I'm a <b class="pink">Frontend Software
-                Developer</b> with a strong passion for creating responsive web
-                applications that generate great user experiences.
-                <br>
-                Here's a bit more <b class="pink">about me</b>.
-            </p>
-            <div class="social__list">
-                <a href="https://www.linkedin.com/in/amelia-thompson-44382b3a3/" target="_blank" class="social__link click">
-                    <i class="fa-brands fa-square-linkedin"></i>
-                </a>
-                <a href="https://github.com/AmeliaJefferson2020?tab=repositories" target="_blank" class="social__link click">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="./assets/David Bragg Resume.pdf" target="_blank" class="social__link click">
-                    <i class="fa-solid fa-file-pdf"></i>
-                </a>
-            </div>
+          <h1 class="title">Hey</h1>
+          <h1 class="title pink">I'm Amelia</h1>
+          <p class="header__para">
+            I'm a <b class="pink">Frontend Software Developer</b> with a strong
+            passion for creating responsive web applications that generate great
+            user experiences.
+            <br />
+            Here's a bit more <b class="pink">about me</b>.
+          </p>
+          <div class="social__list">
+            <a
+              href="https://www.linkedin.com/in/amelia-thompson-44382b3a3/"
+              target="_blank"
+              class="social__link click"
+            >
+              <i class="fa-brands fa-square-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/AmeliaJefferson2020?tab=repositories"
+              target="_blank"
+              class="social__link click"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              href="./assets/David Bragg Resume.pdf"
+              target="_blank"
+              class="social__link click"
+            >
+              <i class="fa-solid fa-file-pdf"></i>
+            </a>
+          </div>
         </div>
       </header>
       <button class="mail__btn">
@@ -76,6 +93,52 @@
       <a href="#projects" class="scroll">
         <div class="scroll__icon click"></div>
       </a>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here Are Some Of My <span class="pink">Projects</span>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/treact.mockup.png"
+                  class="project__img"
+                  alt="Treact"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Treact Template Maker
+                  </h3>
+                  <h4 class="project__description--sub-title">HTML, CSS</h4>
+                  <p class="project__description--para">
+                    A responsive template builder website that guides users
+                    through set up and customization of templates of their
+                    choice with clear, readable plan options, values and
+                    testimonies from other users.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://github.com/AmeliaJefferson2020/Final-Project.git"
+                      class="project__description--link"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      href="https://ameliajefferson2020.github.io/Final-Project/"
+                      class="project__description--link"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
   </body>
 </html>
