@@ -32,7 +32,7 @@
           />
         </figure>
         <ul class="nav__link--list">
-          <li class="nav__link">
+          <li class="nav__link" onclick="toggleModal()">
             <a
               href="#"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
@@ -46,9 +46,9 @@
               >Projects</a
             >
           </li>
-          <li class="nav__link">
+          <li class="nav__link" onclick="toggleModal()">
             <a
-              href=""
+              href="#"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Contact</a
             >
@@ -71,7 +71,7 @@
             passion for creating responsive web applications that generate great
             user experiences.
             <br />
-            Here's a bit more <b class="pink">about me</b>.
+            Here's a bit more <b class="pink click" onclick="toggleModal()">about me</b>.
           </p>
           <div class="social__list">
             <a
@@ -98,7 +98,7 @@
           </div>
         </div>
       </header>
-      <button class="mail__btn">
+      <button class="mail__btn click" onclick="toggleModal()">
         <i class="fa-solid fa-envelope"></i>
       </button>
       <a href="#projects" class="scroll">
@@ -158,6 +158,7 @@
           </div>
         </div>
         <div class="modal__half modal__contact">
+          <i class="fa-solid fa-times modal__exit click" onclick="toggleModal()"></i>
           <h3 class="modal__title modal__title--contact">
             Let's Have A Chat!
           </h3>
@@ -186,7 +187,6 @@
             Thank You for Reaching Out! I'm looking forward to speaking to you soon!
           </div>
         </div>
-        <i class="fa-solid fa-times modal__exit click"></i>
       </div>
     </section>
     <section id="projects">
