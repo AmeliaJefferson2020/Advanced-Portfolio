@@ -102,33 +102,80 @@
             Frontend Software Engineer
           </h4>
           <p class="modal__para">
-            I'm a 30 year old American <b class="pink">frontend software engineer</b> with a passion for
+            I'm a 30 year old American
+            <b class="pink">frontend software engineer</b> with a passion for
             developing websites with great <b class="pink">user experiences</b>.
             <br />
             I'm currently working on extremely difficult engineering problems
-            and learn from a team consisting of some of the most <b class="pink">talented</b> and
+            and learn from a team consisting of some of the most
+            <b class="pink">talented</b> and
             <b class="pink">experienced</b> software engineers every day.
           </p>
           <div class="modal__languages">
             <figure class="modal__language">
-              <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="HTML">
+              <img
+                class="modal__language--img"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                alt="HTML"
+              />
               <span class="language__name">HTML</span>
             </figure>
             <figure class="modal__language">
-              <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="CSS">
+              <img
+                class="modal__language--img"
+                src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
+                alt="CSS"
+              />
               <span class="language__name">CSS</span>
             </figure>
             <figure class="modal__language">
-              <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="JavaScript">
+              <img
+                class="modal__language--img"
+                src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+                alt="JavaScript"
+              />
               <span class="language__name">JavaScript</span>
             </figure>
             <figure class="modal__language">
-              <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" alt="React">
+              <img
+                class="modal__language--img"
+                src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
+                alt="React"
+              />
               <span class="language__name">React</span>
             </figure>
           </div>
         </div>
-        <div class="modal__half modal__contact">Let's Have A Chat!</div>
+        <div class="modal__half modal__contact">
+          <h3 class="modal__title modal__title--contact">
+            Let's Have A Chat!
+          </h3>
+          <h4 class="modal__sub-title modal__sub-title--contact">
+            I'm currently open to new opportunities.
+          </h4>
+          <form id="contact__form" action="">
+            <div class="form__item">
+              <label for="name" class="form__item--label">Name:</label>
+              <input type="text" name="user__name" class="input" required></input>
+            </div>
+            <div class="form__item">
+              <label for="email" class="form__item--label">Email:</label>
+              <input type="email" name="user__email" class="input" required></input>
+            </div>
+            <div class="form__item">
+              <label for="message" class="form__item--label">Message:</label>
+              <textarea type="text" name="message" class="input" required></textarea>
+            </div>
+            <button id="contact__submit" class="form__submit">Send It My Way!</button>
+          </form>
+          <div class="modal__overlay modal__overlay--loading">
+            <i class="fa-solid fa-spinner"></i>
+          </div>
+          <div class="modal__overlay modal__overlay--success">
+            Thank You for Reaching Out! I'm looking forward to speaking to you soon!
+          </div>
+        </div>
+        <i class="fa-solid fa-times modal__exit click"></i>
       </div>
     </section>
     <section id="projects">
