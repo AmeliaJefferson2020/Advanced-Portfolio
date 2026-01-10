@@ -552,17 +552,18 @@ nav {
 }
 
 .project__description--sub-title {
-  margin-top: 8px;
+  margin-top: 32px;
 }
 
 .project__description--link {
   color: white;
   font-size: 20px;
-  margin-right: 16px;
+  margin-right: 24px;
 }
 
 .project__description--para {
   margin: 16px 0;
+  font-size: 24px;
 }
 
 /* FOOTER */
